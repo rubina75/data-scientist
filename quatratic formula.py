@@ -1,0 +1,6 @@
+a=int(input('enter first value'))
+b=int(input('enter second value'))
+c= int(input('enter third value'))
+x=(-b-((b**2)-4*a*c)**(1/2))/(2*a)
+y=(-b+((b**2)-4*a*c)**(1/2))/(2*a)
+print("ans is ",x,y)
